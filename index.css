@@ -1,0 +1,188 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+h1 {
+    /* border: 2px solid; */
+    width: 46%;
+    position: relative;
+    top: 19vh;
+    left: 8%;
+}
+img {
+    width: 34%;
+    position: relative;
+    left: 58%;
+    top: -11vh;
+}
+p {
+    position: relative;
+    top: 18vh;
+    left: 8%;
+}
+.container {
+    position: relative;
+    top: -20vh;
+    left: 8%;
+}
+.box1 {
+    position: relative;
+    border: 2px solid;
+    width: 62%;
+    left: 19%;
+    border-radius: 24px;
+    height: 49vh;
+}
+.box1 h2 {
+    border: 2px solid;
+    width: 32%;
+    position: relative;
+    left: 3%;
+    font-size: 5vh;
+}
+.box1 p {
+    position: relative;
+    top: -1vh;
+    border: 2px solid;
+    left: 2%;
+    width: 49%;
+}
+.box1 button {
+    position: relative;
+    top: -27vh;
+    left: 3%;
+}
+.box1 img {
+    position: relative;
+    left: 43%;
+    top: -20vh;
+    width: 44%;
+    height: 30vh;
+}
+.box2 {
+    border: 2px solid;
+    width: 65%;
+    position: relative;
+    left: 8%;
+    top: 15vh;
+    height: 48vh;
+}
+.box2 h2 {
+    border: 2px solid;
+    width: 48%;
+    position: relative;
+    left: 3%;
+    top: 7vh;
+}
+.box2 p {
+    position: relative;
+    border: 2px solid;
+    top: 5vh;
+    left: 3%;
+    width: 48%;
+}
+.box2 img {
+    position: relative;
+    top: -25vh;
+    width: 41%;
+    height: 28vh;
+}
+.box3 {
+    border: 2px solid;
+    position: relative;
+    top: 30vh;
+    width: 63%;
+    height: 49vh;
+    left: 28%;
+}
+.box3 h2 {
+    position: relative;
+    left: 57%;
+    border: 2px solid;
+    width: 39%;
+}
+.box3 p {
+    position: relative;
+    border: 2px solid;
+    width: 40%;
+    left: 57%;
+    top: 0vh;
+}
+.box3 img {
+    position: relative;
+    left: 4%;
+    width: 47%;
+    height: 32vh;
+    top: -36vh;
+}
+.steps {
+    border: 2px solid;
+    position: relative;
+    top: 49vh;
+    width: 65%;
+    left: 23%;
+    height: 111vh;
+}
+.main-step {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 14%;
+}
+
+.step {
+    border: 2px solid;
+    width: 29%;
+    margin: 2%;
+}
+
+.steps p {
+    position: relative;
+    top: -2vh;
+    left: 3%;
+}
+
+.main-implementation {
+    border: 2px solid;
+    position: relative;
+    top: 116vh;
+    width: 60%;
+    height: 46vh;
+    left: 25%;
+}
+.main-implementation img {
+    position: relative;
+    left: -17%;
+    top: 1vh;
+    width: 45%;
+}
+.main-implementation h2 {
+    text-align: center;
+}
+input[type="file"] {
+    position: relative;
+    left: 34%;
+    top: 7vh;
+}
+
+.expected-output {
+    position: relative;
+    top: 16vh;
+    border: 2px solid;
+}
+.main-box {
+    display: flex;
+    position: relative;
+    top: 9vh;
+    left: -5%;
+}
+.expected-output h2 {
+    text-align: center;
+}
+.boxes img {
+    width: 87%;
+    position: relative;
+    left: 26%;
+    height: 23vh;
+}
