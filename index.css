@@ -1,188 +1,87 @@
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-h1 {
-    /* border: 2px solid; */
-    width: 46%;
-    position: relative;
-    top: 19vh;
-    left: 8%;
-}
-img {
-    width: 34%;
-    position: relative;
-    left: 58%;
-    top: -11vh;
-}
-p {
-    position: relative;
-    top: 18vh;
-    left: 8%;
-}
-.container {
-    position: relative;
-    top: -20vh;
-    left: 8%;
-}
+body {background-color: rgb(235 235 235);}
+ul { display: flex; justify-content: space-around; list-style: none; }
+h1 { width: 46%; position: relative; top: 19vh; left: 8%; }
+img {width: 34%;position: relative;left: 58%;top: -11vh;/* border-radius: 25px; */}
+p { position: relative; top: 18vh; left: 8%; }
+.container { position: relative; top: -20vh; left: 8%; }
 .box1 {
-    position: relative;
-    border: 2px solid;
-    width: 62%;
-    left: 19%;
-    border-radius: 24px;
-    height: 49vh;
-}
-.box1 h2 {
-    border: 2px solid;
-    width: 32%;
-    position: relative;
-    left: 3%;
-    font-size: 5vh;
-}
-.box1 p {
+             position: relative;
+             width: 62%;
+             left: 19%;
+             border-radius: 24px;
+             height: 49vh;
+             background-color: white;
+             border-radius: 45px;
+             background: white;
+             box-shadow: 27px 27px 54px #bcbbbb, -27px -27px 54px #ffffff;
+             }
+.box1 h2 { width: 32%; position: relative; left: 3%; font-size: 5vh; top: 4vh; }
+.box1 p { position: relative; top: 3vh; left: 2%; width: 49%; }
+.box1 button { position: relative; top: -22vh; left: 3%; }
+.box1 img { position: relative; left: 35%; top: -20vh; width: 44%; height: 30vh; }
+.box2 { width: 65%; position: relative; left: 8%; top: 15vh; height: 48vh; }
+.box2 h2 { width: 48%; position: relative; left: 3%; top: 7vh; }
+.box2 p { position: relative; top: 5vh; left: 3%; width: 48%; }
+.box2 img { position: relative; top: -20vh; width: 41%; height: 28vh; }
+.box3 { position: relative; top: 30vh; width: 63%; height: 49vh; left: 28%; }
+.box3 h2 { position: relative; left: 57%; width: 39%; }
+.box3 p { position: relative; width: 40%; left: 57%; top: 0vh; }
+.box3 img { position: relative; left: 4%; width: 47%; height: 32vh; top: -28vh; }
+.steps {
+             position: relative;
+             top: 49vh;
+             width: 65%;
+             left: 18%;
+             height: 196vh;
+             border-radius: 23px;
+             background-color: white;
+             border-radius: 45px;
+             background: #e0e0e0;
+             box-shadow:  27px 27px 54px #bebebe,
+             -27px -27px 54px #ffffff;
+             }
+.main-step { display: flex; flex-flow: wrap; position: relative; left: 14%; }
+.step {border: 10px solid;width: 29%;margin: 2%;background-color: black;color: white;}
+.step h2 { text-align: center; }
+.steps p { position: relative; top: -2vh; left: 3%; }
+#heading { text-align: center; position: relative; top: 2vh; }
+.main-implementation {
+             position: relative;
+             top: 116vh;
+             width: 60%;
+             height: 56vh;
+             left: 23%;
+             /* background-color: white; */
+             /* border-radius: 34px; */
+             border-radius: 45px;
+             background: white;
+             box-shadow: 27px 27px 54px #bebebe, -27px -27px 54px #edebeb;
+             }
+.main-implementation img { position: relative; left: -8%; top: 1vh; width: 45%; }
+.main-implementation h2 { text-align: center; }
+input[type="file"] { position: relative; left: 34%; top: 7vh; }
+.expected-output { position: relative; top: 16vh; }
+.main-box { display: flex; position: relative; top: 9vh; left: 0%; }
+.expected-output h2 { text-align: center; }
+.boxes img { width: 87%; position: relative; left: 26%; height: 23vh; }
+footer { border-top: 1px solid rgb(157, 150, 150); border-image: initial; position: relative; top: 126vh; display: flex; height: 26vh; border-bottom: none; border-left: none; border-right: none; }
+.list1 ul { display: flex; flex-flow: column wrap; margin: 1%; position: relative; left: -51%; top: 3vh; }
+.list2 ul { display: flex; flex-flow: column wrap; margin: 1%; position: relative; left: -11%; top: 3vh; }
+.list3 ul { display: flex; flex-flow: column wrap; margin: 1%; position: relative; top: 3vh; left: 26%; }
+footer p { position: relative; top: 5vh; left: -13%; }
+.list1 li { position: relative; left: -31%; }
+.list2 li { position: relative; left: -31%; }
+.list3 li { position: relative; left: -31%; }
+button { background-color: rgb(33, 150, 243); border: blue; height: 6vh; width: 13%; color: white; border-radius: 25px; }
+button:hover { background: rgb(71, 162, 235); }
+#step7 { position: relative; left: 17%; }
+#step7 p { text-align: center; }
+.step img {
+    width: 91%;
     position: relative;
     top: -1vh;
-    border: 2px solid;
-    left: 2%;
-    width: 49%;
+    left: 7%;
 }
-.box1 button {
-    position: relative;
-    top: -27vh;
-    left: 3%;
-}
-.box1 img {
-    position: relative;
-    left: 43%;
-    top: -20vh;
-    width: 44%;
-    height: 30vh;
-}
-.box2 {
-    border: 2px solid;
-    width: 65%;
-    position: relative;
-    left: 8%;
-    top: 15vh;
-    height: 48vh;
-}
-.box2 h2 {
-    border: 2px solid;
-    width: 48%;
-    position: relative;
-    left: 3%;
-    top: 7vh;
-}
-.box2 p {
-    position: relative;
-    border: 2px solid;
-    top: 5vh;
-    left: 3%;
-    width: 48%;
-}
-.box2 img {
-    position: relative;
-    top: -25vh;
-    width: 41%;
-    height: 28vh;
-}
-.box3 {
-    border: 2px solid;
-    position: relative;
-    top: 30vh;
-    width: 63%;
-    height: 49vh;
-    left: 28%;
-}
-.box3 h2 {
-    position: relative;
-    left: 57%;
-    border: 2px solid;
-    width: 39%;
-}
-.box3 p {
-    position: relative;
-    border: 2px solid;
-    width: 40%;
-    left: 57%;
-    top: 0vh;
-}
-.box3 img {
-    position: relative;
-    left: 4%;
-    width: 47%;
-    height: 32vh;
-    top: -36vh;
-}
-.steps {
-    border: 2px solid;
-    position: relative;
-    top: 49vh;
-    width: 65%;
-    left: 23%;
-    height: 111vh;
-}
-.main-step {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    left: 14%;
-}
-
-.step {
-    border: 2px solid;
-    width: 29%;
-    margin: 2%;
-}
-
-.steps p {
-    position: relative;
-    top: -2vh;
-    left: 3%;
-}
-
-.main-implementation {
-    border: 2px solid;
-    position: relative;
-    top: 116vh;
-    width: 60%;
-    height: 46vh;
-    left: 25%;
-}
-.main-implementation img {
-    position: relative;
-    left: -17%;
-    top: 1vh;
-    width: 45%;
-}
-.main-implementation h2 {
-    text-align: center;
-}
-input[type="file"] {
-    position: relative;
-    left: 34%;
-    top: 7vh;
-}
-
-.expected-output {
-    position: relative;
-    top: 16vh;
-    border: 2px solid;
-}
-.main-box {
-    display: flex;
-    position: relative;
-    top: 9vh;
-    left: -5%;
-}
-.expected-output h2 {
-    text-align: center;
-}
-.boxes img {
-    width: 87%;
-    position: relative;
-    left: 26%;
-    height: 23vh;
+img.round-img {
+    border-radius: 25px;
 }
